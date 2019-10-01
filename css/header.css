@@ -1,0 +1,7 @@
+.jumbotron{
+    background: url('../assets/alienBackground.png') center bottom;
+    background-size: cover;
+    height: 140vh;
+    font-family: 'Big Shoulders Display' cursive;
+    color: whitesmoke;
+}

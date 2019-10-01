@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Example Portfolio</title>
+  <!-- google font (Big shoulders) -->
+  <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap" rel="stylesheet">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- css -->
+  <link ref="text/css" rel="stylesheet" href="css/main.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#section1">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#section2">About Me</a>
+        <a class="nav-item nav-link" href="#section3">Projects</a>
+        <a class="nav-item nav-link" href="#section4">Contact Info</a>
+      </div>
+            <div class="">
+                <i class="fab fa-github"></i>
+            </div>
+    </div>
+    
+  </nav>
+  
+  <!-- jumbotron/header-->
+  <div id="section1">
+    <div class="jumbotron">
+    <h1 class="display-4" style="text-align: center">Alek Hawkins</h1>
+    <p class="lead">Fullstack Javascript Developer.</p>
+    <hr class="my-4">
+  </div>
+</div>
+<!-- About ME -->
+<div id="section2">
+<div class="jumbotron1 jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-5" style="text-align: center; font-size: 35px">About Me</h1>
+        <p class="lead" style="color: whitesmoke";>You're here reading this so that you can learn more about me as a fullstack JavaScript Developer. Welcome! I used to be a line cook aspiring to be a chef and one day I woke up realizing that I no longer had the passion nor drive. I have experience with troubleshooting and building computer hardware and software. Tools and technologies I have experience with include: HTML, CSS, JavaScript, Bootstrap, GitHub and Git.</p>
+        <h3 class="skills">Skills:</h3>
+        <div class="images">
+            <img class="htmlCssJava" src="./assets/htmlCssJsIcon.png">
+            <img class="bootstrap" src="./assets/bootstrap.png">
+            <img class="gitHub" src="./assets/gutHub.png">
+          </div>
+      </div>
+    </div>
+  </div>
+  <br>
+    <br>
+    <!--- PROJECTS -->
+  <div id="section3">
+    <section id="projects">
+    <!-- in line styling-->
+    <h1 class="projectsTitle" style="text-align: center; font-size: 35px">Projects</h1>
+    <div class="container">
+      <div class="row">
+        <!-- grid system must always equal 12 (col-4 + col-4 + col-4)-->
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+                <img src="./assets/netflix.png" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Static Layout Page</h5>
+                  <p class="card-text">I recreated the netflix home site</p>
+                  <a href="https://alekhawkins17.github.io/staticLayoutProject/" class="btn btn-primary">Go</a>
+                </div>
+              </div>
+            </div>
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+                <img src="./assets/pokemonAPI.png" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Pokemon API</h5>
+                  <p class="card-text">I created a shiny pokemon generator. Type in a pokemon (all lowercase) </p>
+                  <a href="https://alekhawkins17.github.io/Api-project/." class="btn btn-primary">Go</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/cssMonster.png" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">CSS Monster</h5>
+                  <p class="card-text">I created scream in codepen using html and css. </p>
+                  <a href="https://codepen.io/alekhawkins17/pen/OJLoyLw." class="btn btn-primary">Go</a>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Info -->
+  <div id="section4">
+    <section class="Contact Info">
+    <section id="contact">
+      <div class="container">
+        <br>
+        <br>
+        <h2 class="text-center text-uppercase">Contact Me</h2>
+        <div class="row">
+          <div class="col-12">
+            <form action="https://formspree.io/alekhawkins17@gmail.com" method="POST">
+              <div class="control-group">
+                <div class="form-group">
+                  <label>Name</label>
+                  <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                    data-validation-required-message="Please enter your name" name="name">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group">
+                  <label>Email Address</label>
+                  <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                    data-validation-required-message="Please enter your email" name="_replyto">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group">
+                  <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                    data-validation-required-message="Please leave a message" name="message"></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="text-center">
+                <div id="success"></div>
+                <button type="submit" class="btn btn-lg btn-black">
+                  <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+  </section>
+
+  <!-- Footer -->
+  <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="#section1">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section2">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section3">Projects</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#section4">Contact Info</a>
+      </li>
+    </ul>
+
+  <!-- javascript coding -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f519d26013.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
