@@ -1,3 +1,5 @@
-.github{
-   width: 200%;
+#github{
+   position: absolute;
+   left: 1100px;
+   top: 5px;
 }

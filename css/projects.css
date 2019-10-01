@@ -1,3 +1,12 @@
 .projectsTitle{
-    color: whitesmoke;
+    color: #2eb8b8;
+}
+.card{
+    background-color: var(--grey);
+    color: #2eb8b8;
+}
+#button1{
+    color: #2eb8b8;
+    background-color: #0a2929;
+    border: none;
 }

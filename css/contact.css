@@ -1,12 +1,28 @@
 #contact {
-    background: var(--black);
-    padding-bottom: 3em;
+    background-image: url('../assets/skeeBall.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
-h2{
-    color: white;
-}
-
 .text-center button {
     background-color: white;
     color: var(--black);
+}
+.form-control{
+    background-color: whitesmoke;
+    opacity: 0.4;
+    /* border: solid 1px;
+    border-color: #2eb8b8; */
+}
+#submit{
+    background-color: #0a2929;
+}
+.bordertest{
+    border: solid 1px;
+    border-color: #2eb8b8;  
+    border-radius: 5px;
+    color: #2eb8b8;
+}
+
+select:focus {
+    opacity: 1.0 !important;
 }
