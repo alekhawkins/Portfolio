@@ -10,3 +10,9 @@
     background-color: #0a2929;
     border: none;
 }
+.card-title{
+    font-family: 'Big Shoulders Text', cursive;
+}
+.card-text{
+    font-family: 'Big Shoulders Display' cursive;
+}
