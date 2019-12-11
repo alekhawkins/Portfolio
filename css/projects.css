@@ -2,9 +2,10 @@
     color: #2eb8b8;
 }
 .card{
-    background-color: var(--grey);
+    background-color: rgb(255, 255, 255, 0.1);
     color: #2eb8b8;
-    
+    margin-bottom: 1em;
+    border: solid black 1.5px;
 }
 #button1{
     color: #2eb8b8;

@@ -8,8 +8,8 @@
     color: var(--black);
 }
 .form-control{
-    background-color: whitesmoke;
-    opacity: 0.4;
+    background-color: rgb(255, 255, 255, 0);
+    /* opacity: 0.4; */
     /* border: solid 1px;
     border-color: #2eb8b8; */
 }
